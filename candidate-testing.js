@@ -53,7 +53,7 @@ function gradeQuiz(candidateAnswers) {
   
 
  console.log(">>> Overall Grade: " + grade + "%" + " (" + numCorrectAnswer + " of " + questions.length + " responses correct) <<<");
- if(grade < 60){
+ if(grade < 80){
    console.log(">>> Status: FAILED <<<")
  } else{
    console.log(">>> Status: PASSED <<<")
