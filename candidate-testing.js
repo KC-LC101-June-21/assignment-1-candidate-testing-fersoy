@@ -31,11 +31,11 @@ function askQuestion() {
       candidateAnswers[i] = input.question(questions[i]) ;
         console.log(`Your Answer: ${candidateAnswers[i]}`);
         console.log(`Correct Answer: ${correctAnswers[i]}\n`);
-      if(candidateAnswers[i] === correctAnswers[i].toLowerCase()){
+      if(candidateAnswers[i].toLowerCase() === correctAnswers[i].toLocaleLowerCase()){
       console.log("Your answer is right!\n")
       }else{
       console.log("Incorrect answer!\n")
-      }
+      }40
   }
   
 }
