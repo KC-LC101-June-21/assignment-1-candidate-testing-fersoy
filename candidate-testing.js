@@ -35,7 +35,7 @@ function askQuestion() {
       console.log("Your answer is right!\n")
       }else{
       console.log("Incorrect answer!\n")
-      }40
+      }
   }
   
 }
